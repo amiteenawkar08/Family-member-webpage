@@ -1,0 +1,16 @@
+body
+{
+    background-size:cover;
+}
+.name_of_object{
+    color: rgb(0, 0, 0);
+}
+#p{
+    color:rgb(199, 69, 222);
+}
+label{
+    color: rgb(80, 7, 54);
+}
+#FAMILY_MEMBER_RECONGNITION{
+    color: rgb(215, 27, 162);
+}

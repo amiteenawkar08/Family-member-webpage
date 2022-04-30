@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Family member recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css"> 
+  
+  </head>
+
+  <body background="https://media.istockphoto.com/photos/multicolored-leaves-picture-id1318863607?b=1&k=20&m=1318863607&s=612x612&w=0&h=DX9Zm51DHmrnPOMU-vRcMGjIHtu3hYYy4omFhy2S2fw=">
+  <div class="container">
+    
+    <center>
+<h3  id="FAMILY_MEMBER_RECONGNITION"class="btn btn-default heading">FAMILY MEMBER RECONGNITION</h3>
+      <br><br>
+      <img  id="RECONGNITION"src="https://w7.pngwing.com/pngs/648/604/png-transparent-family-family-child-people-friendship.png">
+
+      <p id="p"style="font-size: 22px;">Welcome to my Website . This website can identifiy which family memebr is which one . so here you don't have to do any thing whatever work is that is mine so no worries . hope you will like this website  </p>
+ 
+      <b class="name_of_object" >
+        MOM
+        <hr>
+        DAD
+        <hr>
+        ME
+        <hr>
+        SISTTER
+        <hr>
+      </b>
+
+
+      <label>Webcam View - </label>
+      <div id="camera"></div>
+      <br><br>
+<div id="result"></div>
+      <br><br>
+<button onclick="take_snapshot();" class="btn btn-info">Capture Image</button>
+      <br><br>
+<button onclick="check();" class="btn btn-success">Identify</button>
+      <br><br>
+
+      <p style="font-size: 22px;">Object :  </p>
+      <p style="font-size: 22px;">Accuracy :  </p>
+    </center>
+
+  </div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 
